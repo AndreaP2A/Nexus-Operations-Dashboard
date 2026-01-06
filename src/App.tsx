@@ -22,7 +22,7 @@ function App() {
       <header style={{ marginBottom: '2.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <img src="/favicon.png" alt="Nexus Logo" style={{ width: '42px', height: '42px', filter: 'drop-shadow(0 0 8px rgba(59, 130, 246, 0.5))' }} />
+            <img src="favicon.png" alt="Nexus Logo" style={{ width: '42px', height: '42px', filter: 'drop-shadow(0 0 8px rgba(59, 130, 246, 0.5))' }} />
             <div>
               <h1 style={{ fontSize: '1.5rem', fontWeight: '700', margin: 0, letterSpacing: '-0.025em' }}>Nexus Operations</h1>
               <p style={{ margin: '0.25rem 0 0', color: 'var(--text-secondary)', fontSize: '0.875rem' }}>Live Service Monitoring Portal</p>
