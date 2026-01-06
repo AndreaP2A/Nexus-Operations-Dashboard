@@ -129,14 +129,14 @@ const MetricCard = ({ label, value, sub, Icon, iconColor, highlight, isActive, o
   <div 
     onClick={onClick}
     style={{ 
-      background: isActive ? 'rgba(59, 130, 246, 0.05)' : 'var(--bg-secondary)', 
+      background: isActive ? `color-mix(in srgb, ${iconColor}, transparent 95%)` : 'var(--bg-secondary)', 
       padding: '1.25rem', 
       borderRadius: '12px', 
       border: isActive 
-        ? (highlight ? '1px solid var(--danger)' : '1px solid var(--accent)') 
+        ? `1px solid ${iconColor}` 
         : '1px solid var(--border)',
       boxShadow: isActive 
-        ? (highlight ? '0 0 0 1px var(--danger)' : '0 0 0 1px var(--accent)') 
+        ? `0 0 0 1px ${iconColor}` 
         : 'none',
       display: 'flex',
       flexDirection: 'column',
