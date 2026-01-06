@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Using relative base path for GitHub Pages compatibility
+  base: '/Nexus-Operations-Dashboard/', // Absolute base path for GitHub Pages
 })
